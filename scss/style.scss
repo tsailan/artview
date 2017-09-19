@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+$primary: #982424;
+span {
+	font-family: 'Abril Fatface', cursive;
+}
+
+.title {
+	color: $primary;
+	font-size: 35px;
+	text-shadow: 0px 1px 30px rgba(196, 183, 25, 0.43);
+	margin: auto;
+	text-align: center;
+}
+
+.btns {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.btn {
+	font-weight: bold;
+	text-decoration: none;
+	width: 85px;
+	height: 35px;
+	background: rgba(235, 217, 117, 0.74);
+	color: #930808;
+	text-align: center;
+	line-height: 35px;
+	display: inline-block;
+}
+
+.btn:hover {
+	background: rgba(244, 211, 77, 0.78);
+	box-shadow: 0 5px 12px -5px rgba(0, 0, 0, 0.42);
+}
+
+h1 {
+	margin: 0;
+}
+
+.box {
+	width: 1000px;
+	height: 500px;
+	background: #f4e0a0;
+	border: 1px solid brown;
+	padding: auto;
+	margin: 20px auto;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+.cr-img {
+	width: 980px;
+	height: 480px;
+}
+
+.box1 {
+	width: 1000px;
+	height: 80px;
+	background: #f4e0a0;
+	border: 1px solid brown;
+	padding: 5px;
+	margin: 5px auto;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 15px;
+	color: #982424;
+}
+
+h2>i.fa {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+p {
+	font-size: 10px;
+	color: #982424;
+}
